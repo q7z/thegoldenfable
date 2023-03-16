@@ -18,13 +18,17 @@ import {ThemeSwitcher} from '../../theme-switcher/theme-switcher';
             <Fragment slot="icon">
               <Icon name="ic:baseline-chevron-right"/>
             </Fragment>
-	
-			
+            </Button
+					>
+					<Button href="/theme/style-guide" unelevated>Style Guide</Button>
+				</div>
+        {settings.enableThemeSwitcher && <ThemeSwitcher client:load/>}
+		</div>
 		<div class="hero-section__image">
 				<picture>
 					<img
 						src="/assets/images/home/goldenbird.jpg"
-						alt="Goldenthready"
+						alt="A Golden"
 						id="home-hero-image"
 					/>
 				</picture>
