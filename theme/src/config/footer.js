@@ -1,22 +1,22 @@
 export const footerSocials = [
   {
     name: 'Twitter',
-    url: 'https://twitter.com/littlesticksdev',
+    url: 'https://twitter.com/',
     icon: "mdi:twitter",
   },
   {
     name: 'Youtube',
-    url: 'https://youtube.com/c/LittleSticks',
+    url: 'https://youtube.com/c/',
     icon: "mdi:youtube",
   },
   {
     name: 'Github',
-    url: 'https://github.com/littlesticks',
+    url: 'https://github.com/',
     icon: "mdi:github",
   },
   {
     name: 'Discord',
-    url: 'https://littlesticks.dev/discord',
+    url: 'https://.dev/discord',
     icon: "ic:baseline-discord",
   },
 ]
@@ -40,7 +40,7 @@ export const footerLists = [
 		],
 	},
 	{
-		title: 'Company',
+		title: 'The Golden Fable',
 		items: [
 			{
 				title: 'About',
@@ -56,25 +56,7 @@ export const footerLists = [
 			},
 		],
 	},
-	{
-		title: 'Theme',
-		items: [
-			{
-				title: 'Get Started',
-				slug: '/theme/get-started',
-			},
-			{
-				title: 'Style Guide',
-				slug: '/theme/style-guide',
-			},
-      {
-        title: 'Theme Setup',
-        slug: '/theme/theme-setup',
-      },
-      {
-        title: 'Customizing Odyssey',
-        slug: '/theme/customizing-odyssey',
-      }
+	
 		],
 	},
 ];
